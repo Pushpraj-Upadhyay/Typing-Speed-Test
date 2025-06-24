@@ -33,9 +33,9 @@ export default function TextDisplay() {
   return (
     <div className="mb-4">
       <h3 className="text-lg font-semibold text-gray-800 mb-3">
-        Text to type:
+        Text to type :
       </h3>
-      <div className="flex flex-wrap overflow-y-auto p-4 bg-gray-50 rounded-lg border-2 border-gray-200 min-h-[120px] leading-relaxed">
+      <div className="flex flex-wrap p-4 bg-gray-50 rounded-lg border-2 border-gray-200 min-h-[120px] leading-relaxed">
         {currentText ? renderText() : "Loading text..."}
       </div>
       <div className="mt-2 text-sm text-gray-500">
